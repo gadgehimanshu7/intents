@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["Hi","hello","whats up","hey","Hi there","hey there","Greetings"],
+      "responses": ["Hi!","Hello!","How may I help You?","Hey, How you Doing?","Good Day"]
+    },
+    {
+      "tag": "GoodBye",
+      "patterns": ["bye","cya","see you","have a nice day","hope to see you soon","see ya","I am leaving"],
+      "responses": ["Bye!","Good Bye!","Wish You the Same,Have a nice Day!","Sad to see you go :("]
+    },
+    {
+      "tag": "Diagnostics",
+      "patterns": ["i am not feeling well"," I am not good from some days","i am feeling uneasy"],
+      "responses": ["Okay, Can you tell me the Symptoms So I can Help You?"]
+    },
+    {
+      "tag": "diagnose_request_response",
+      "patterns": ["Yes", "Yeah","Sure","Okay","Ofcourse"],
+      "responses": ["Sure Tell me Please!"]
+    },
+    {
+      "tag": "Covid-19 Symptoms",
+      "patterns": ["I have cough,cold and feeling fever with a sore throat"],
+      "responses": ["Your Symptoms Denote to COVID-19. Please Ensure your RTPCR Test from nearest clinic"]
+    },
+    {
+      "tag": "Normal_Flu",
+      "patterns": [" i have a runny nose"," i come up with sneezes regularly"," i am having a closed nostril from some days"],
+      "responses": ["You are suffering from cold"]
+    },
+    {
+      "tag": "Fever",
+      "patterns": ["i have a temperature of 101 degrees", "i am feeling cold","I have fever"],
+      "responses": ["You Have fever"]
+    }
+  ]
+}

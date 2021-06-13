@@ -1,0 +1,128 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["Hi","hello","Is anyone there?","whats up","hey","Hi there","hey there","Greetings","Hello my name is "],
+      "responses": ["Hi!How may I help You?","Hello!How may I help You?","How may I help You?","Hey, How you Doing today?"]
+    },
+    {
+      "tag": "introduction",
+      "patterns": ["What is your name","May i know your name","what can i call you","What is your good name"],
+      "responses": ["I am a CureBot.","My name is CureBot, Tell me how can i help you?"]
+    },
+    { 
+      "tag": "chat-bot",
+      "patterns": ["what are you?","Are you a Robot?","Are you a Bot?"],
+      "responses": ["I am a AI based Intelligent Chat-Bot."]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who is your creator?", "Who created you?", "Who developed you?","Who programmed you?","Who is your programmer?"],
+      "responses": ["I am programmed by Vaibhav Tode, Himanshu Gadge, Sudarshan Madane and Prateek Kachare."]
+    },
+    {
+      "tag": "purpose",
+      "patterns": ["What is your purpose?","What help you provide?", "How you can be helpful?", "What support is offered","why were you created?","How could you help me?","What is the reason behind Your creation","how does it work?","How do u work?","what can you do?"],
+      "responses": ["I can guide you to treat medical issues by providing you  proper precautions and preventions on your symptoms or disease."]
+    },
+    {
+      "tag": "no_answer",
+      "patterns": [],
+      "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    {
+      "tag": "GoodBye",
+      "patterns": ["bye","cya","see you","have a nice day","hope to see you soon","see ya","I am leaving"],
+      "responses": ["Bye! happy to help","Good Bye! Happy to help","Wish You happy and prosperous life","Have a nice Day!","Stay happy, stay strong"]
+    },
+    {
+      "tag": "thanksgiving",
+      "patterns": ["thankyou","thanks","thank you","thanks a lot","thanks for your help"],
+      "responses": ["Mention not, don't hesitate to text me in need.","Happy to help","your welcome","hope to see you soon","welcome, Need more help?"]
+    },
+    {
+      "tag": "negative_response",
+      "patterns": ["No","Nope","Na"],
+      "responses": ["Okay, No problem.take care"]
+    },
+    {
+      "tag": "Diagnostics",
+      "patterns": ["i am not feeling well"," Its been few days i m feeling waek and dizzy","i am feeling like headache, vomiting, and uneasy"],
+      "responses": ["Okay, Can you tell me the Symptoms So that I can Help You?"]
+    },
+    {"tag": "Incomplete_Data",
+      "patterns": ["what are the precautions","how do i get cure","what is the solution","how can i get better","what is the treatment"],
+      "responses": ["please mention your disease in detail if its fever or cold or flue or covid or diarrhoea or any specific as told by me before"]
+    },
+    {
+      "tag": "diagnose_request_response",
+      "patterns": ["Yes", "Yeah","Sure","OfCourse","yup"],
+      "responses": ["Sure Tell me Please! so that we can help you to cure it."]
+    },
+    {
+      "tag": "Covid-19 Symptoms",
+      "patterns": ["I have cough,cold and fever with a sore throat,i cant sense smell or lack taste"],
+      "responses": ["Your Symptoms Denote to COVID-19. Please Ensure your RTPCR Test from nearest clinic, and take care, get well soon"]
+    },
+    {
+      "tag": "Normal_Flu",
+      "patterns": [" i have a runny nose"," i come up with sneezes regularly"," i am having a packed nostril from some days"],
+      "responses": ["You are suffering from cold flu, you can further ask for preventions and precautions for flu"]
+    },
+    {
+      "tag": "Flu_preventions",
+      "patterns": ["what are the precautions for flu","what are the preventions for flu","what are the precautions for cold flu","what are the preventions for cold flu"],
+      "responses": ["Avoid close contact with people who are sick,Cover your mouth and nose,Clean your hands, Stay home and take sufficient rest and you will be back to normal soon."]
+    },
+    {
+      "tag": "Fever",
+      "patterns": ["i have a temperature of 101 degrees", "i am feeling cold,vomiting"],
+      "responses": ["You Have a fever, further u can ask for preventions and  precautions for fever"]
+    },
+    {
+      "tag": "Fever_Precautions",
+      "patterns": ["what are the precautions for fever?","what measures should i take to cure fever?","fever" ],
+      "responses": ["Here it is all you need to do, Drink warm water,keep yourself hydrated,Take haldi-milk twice a day,try to stay home,if temperature is high then have calpol paracetamol 500mg tablet after meal and dinner"]
+    },
+    {
+      "tag": "Asthma",
+      "patterns": ["I hear whistling sound when i breathe, tight chest, shortness of breathe, coughing","i have a regular cough, i feel shortness in breathing"],
+      "responses": ["Your symptoms shows you have Asthma, If u need any further assistance feel free to ask.  "]
+    },
+    {
+      "tag": "Asthma_Precautions",
+      "patterns": ["What are the precautions for Asthma?","what measures should i take to cure Asthma?"],
+      "responses": ["Don't panic and for detail diagnosing please visit pulmonologist. They can treat you with your lungs and respiratory issues.After x-ray, they will tell you how much it is infected. If you need any further assistance feel free to ask."]
+    },
+    {
+      "tag": "Anxiety",
+      "patterns": ["I feel uneasy, fear and worry,difficulty concentrating,restlessness","i feel restless, difficulty concentrating, irritability,tiredness,headache"],
+      "responses": ["Its a clear sign of Anxiety, If You need to know more about its precautions or cure, feel free to ask. "]
+    },
+    {
+      "tag": "Anxiety_precautions",
+      "patterns": ["What are the precautions for Anxiety?","What measures should i take to cure Anxiety"],
+      "responses": ["Its a clear sign of Anxiety, for this you need someone to talk to your close ones  or share your feelings and emotions, You should consult a Therapist. Take care and Not to worry. "]
+    },
+    {
+      "tag": "Chickenpox",
+      "patterns": ["I am having red rashes , fever and itchiness", "i am getting red spots on my hands, face and all over my body what do i do?", "i am having fever, muscle pain,red spots on my hands, face and all over my body i am scared what it might be?"],
+      "responses": ["What i see is,you are facing is mild illness considered as Chickenpox, If You need to know more about its precautions or cure, feel free to ask."]
+    },
+    {
+      "tag": "Chickenpox_precautions",
+      "patterns": ["What are the precautions for chickenpox?","What measures should i take to cure Chickenpox"],
+      "responses": ["you need to stay indoor as virus should not spread much, do not scratch the spots as it can be incredibly itchy,wear cool clothing, keep yourself hydrated, if there is a sever and spreading infection, you must visit a nearby doctor."]
+    },
+    {
+      "tag": "GERD",
+      "patterns": ["I have stomach_pain,acidity and ulcers on tongue","I had vomiting,feel like acidity and ulcers on my tongue"],
+      "responses": ["its a clear sign of Acid Reflux also called as Gastroesophageal reflux disease, or GERD. It is a digestive disorder that affects the ring of muscle between your esophagus and your stomach. This ring is called the lower esophageal sphincter (LES). If you have it, you may get heartburn or acid indigestion. Feel free to ask if you wanna know more about its treatment and cure."]
+    },
+    {
+      "tag": "GERD_precautions",
+      "patterns": ["What is the treatment for GRED","How do we cure GERD","what measures do we need to take to cure GRED","What is the treatment for Gastroesophageal reflux disease","How do we cure Gastroesophageal reflux disease","what measures do we need to take to cure Gastroesophageal reflux disease",",What is the treatment for AcidReflux","How do we cure Acid reflux","what measures do we need to take to cure acid reflux"],
+      "responses": ["If you consult a doctor, they may suggest you \bAntacids which help neutralise acid and stop heartburn, \bProton pump inhibitors which will help block a protein needed to make stomach acid or \bprokinetics this will help you empty your stomach faster so that you wont have much acid left. Other precautions u must take are \bavoid eating food like chocolate,peppermint, fatty foods caffeine and alcoholic beverages,\b Eat slowly and smaller servings,\b chew your food thoroughly,\b Stop smoking and \b stay at healthy weight."]
+    }
+  ]
+}

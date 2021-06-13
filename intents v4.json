@@ -1,0 +1,118 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["Hi","hello","whats up","hey","Hi there","hey there","Greetings","Hi, How are you?","Hello, How are you?","hello, my name is"],
+      "responses": ["Hi!How are You?","Hello!How may I help You?","Hii, How may I help You?","Hey, How you Doing today?","Hola!!"]
+    },
+    {
+      "tag": "GoodBye",
+      "patterns": ["bye","cya","see you","have a nice day","hope to see you soon","see ya","I am leaving","thank you"],
+      "responses": ["Bye!","Good Bye! Take Care, feel free to text.","Wish You happy and prosperous life","Have a nice Day!","Stay happy, stay strong"]
+    },
+    {
+      "tag": "morning",
+      "patterns": ["Good morning","Hi, Good Morning", "Morning","hey, morning"],
+      "responses": ["Good Morning and heartily Welcome, How are you?"]
+    },
+    {
+      "tag": "afternoon",
+      "patterns": [" Good afternoon","Hi, Good afternoon","Hello, good afternoon"],
+      "responses": ["Good afternoon and heartily Welcome, How are you?"]
+    },
+    {
+      "tag": "evening",
+      "patterns": ["Good evening","Hi, Good evening","Hello, good evening"],
+      "responses": ["Good Evening and heartily Welcome, How are you?"]
+    },
+    {
+      "tag": "night",
+      "patterns": ["Thank you, Good night","Good night", "night"],
+      "responses": ["Good Night and take care, stay safe."]
+    },
+    {
+      "tag": "developer",
+      "patterns": ["Who created you?","Who Programmed you?", "Who developed you?","Who invented you?"],
+      "responses": ["I am programmed By Vaibhav Tode, Himanshu Gadge, Sudarshan Madane, Prateek Kachare."]
+    },
+    {
+      "tag": "ok",
+      "patterns": ["okay","ok","ohk"],
+      "responses": ["yeah. So, is there anything else?"]
+    },
+    {
+      "tag": "Purpose",
+      "patterns": ["What is your purpose?","What can you do?", "how can you help me?", "Why were you programmed?", "Why were you developed?","Why were you invented?","Why are you programmed?", "Why are you developed?","Why are you invented?"],
+      "responses": ["I am an Artificially Intelligent Chat-Bot, programmed for \bmedical diagnostics to help those who ever is ill or \b in need of any medicinal help or in health emergency. My services are available 24 x 7, You have to tell me how you feel, What are your symptoms and I will provide you with the appropriate solution on the basis of symptoms. "]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?","What can I call you","What is your good name?","So, you are?","May I know your name"],
+      "responses": ["My name is Cure-Bot. An Artificially Intelligent chat-bot."]
+    },
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": [""]
+    },
+    {
+      "tag": "Diagnostics",
+      "patterns": ["i am not feeling well"," Its been few days i m feeling waek and dizzy","i am feeling like headache, vomiting, and uneasy"],
+      "responses": ["Okay, Can you please tell me the Symptoms So that I can Help You?"]
+    },
+    {"tag": "Incomplete_Data",
+      "patterns": ["what are the precautions","how do i get cure","what is the solution","how can i get better","what is the treatment"],
+      "responses": ["please mention your disease in detail if its fever or cold or flue or covid or diarrhoea or any specific as told by us before"]
+    },
+    {
+      "tag": "confirmation",
+      "patterns": ["Yes", "Yeah","Sure","Ofcourse"],
+      "responses": ["Sure Tell me Please! so that we can help you to cure it."]
+    },
+    {
+      "tag": "Covid-19 Symptoms",
+      "patterns": ["I have cough,cold and feeling fever with a sore throat,i cant sense smell or lacking taste"],
+      "responses": ["Your Symptoms Denote to COVID-19. Please Ensure your RTPCR Test from nearest clinic, and take care, get well soon"]
+    },
+    {
+      "tag": "Normal_Flu",
+      "patterns": [" i have a runny nose"," i come up with sneezes regularly"," i am having a packed nostril from some days"],
+      "responses": ["You are suffering from cold flu, you can further ask for preventions and precautions for flu"]
+    },
+    {
+      "tag": "Flu_preventions",
+      "patterns": ["what are the precautions for flu","what are the preventions for flu","what are the precautions for cold flu","what are the preventions for cold flu"],
+      "responses": ["Avoid close contact with people who are sick,Cover your mouth and nose,Clean your hands, Stay home and take sufficient rest and you will be back to normal soon."]
+    },
+    {
+      "tag": "Fever",
+      "patterns": ["i have a temperature of 101 degrees", "i am feeling cold,vomiting"],
+      "responses": ["You Have a fever, further u can ask for preventions and  precautions for fever"]
+    },
+    {
+      "tag": "Fever_Precautions",
+      "patterns": ["what are the precautions for fever?","what measures should i take to cure fever?","fever" ],
+      "responses": ["Here it is all you need to do, Drink warm water,keep yourself hydrated,Take haldi-milk twice a day,try to stay home,if temperature is high then have calpol paracetamol 500mg tablet after meal and dinner"]
+    },
+    {
+      "tag": "Asthma",
+      "pattern": ["I hear whistling sound when i breathe, tight chest, shortness of breathe, coughing","i have a regular cough, i feel shortness in breathing"],
+      "responses": ["Your symptoms shows u have Asthma, don't panic and for detail diagnosing please visit pulmonologist. They can treat you with your lungs and respiratory issues. If u need any further assistance feel free to ask.  "]
+    },
+    {
+      "tag": "Anxiety",
+      "patterns": ["I feel uneasy, fear and worry,difficulty concentrating,restlessness","i feel restless, difficulty concentrating, irritability,tiredness,headache"],
+      "responses": ["Its a clear sign of Anxiety, for this you need someone to talk to someone or you need to share your feelings and emotions, You should consult a Therapist. Take care and Not to worry. "]
+    },
+    {
+      "tag": "",
+      "patterns": [""],
+      "responses": [""]
+    },
+    {
+      "tag": "Chickenpox",
+      "patterns": ["I am having red rashes , fever and itchiness", "i am getting red spots on my hands, face and all over my body what do i do?", "i am having fever, muscle pain,red spots on my hands, face and all over my body i am scared what it might be?"],
+      "responses": ["What i see u are facing is mild illness considered as Chickenpox, u need to stay indoor as virus should not spread much, do not scratch the spots as it can be incredibly itchy,wear cool clothing, keep yourself hydrated, if there is a sever and spreading infection, you must visit a nearby doctor."]
+    }
+  ]
+}
