@@ -146,44 +146,109 @@
       "responses": ["Don't panic and for detail diagnosing please visit pulmonologist. They can treat you with your lungs and respiratory issues.\n\bAsthma can usually be managed with rescue inhalers to treat symptoms (salbutamol) and controller inhalers that prevent symptoms (steroids). Severe cases may require longer-acting inhalers that keep the airways open (formoterol, salmeterol, tiotropium), as well as inhalant steroids."]
     },
     {
-      "tag": "Anxiety",
-      "patterns": ["I feel uneasy, fear and worry,difficulty concentrating,restlessness","i feel restless, difficulty concentrating, irritability,tiredness,headache"],
-      "responses": ["Its a clear sign of Anxiety, If You need to know more about its precautions or cure, feel free to ask. "]
+      "tag": "anxiety_details",
+      "patterns": ["Details about anxiety","what is anxiety","brief info about anxiety","more about anxiety","what exactly is anxiety"],
+      "responses": ["A mental health disorder characterised by feelings of worry, anxiety or fear that are strong enough to interfere with one's daily activities.Examples of anxiety disorders include panic attacks, obsessive-compulsive disorder and post-traumatic stress disorder.It is usually self-diagnosable."]
+    },
+    {
+      "tag": "Anxiety_symptoms",
+      "patterns": ["I feel uneasy, fear and worry,difficulty concentrating,restlessness","i feel restless, difficulty concentrating, irritability,tiredness,headache","I feel uneasy, fear, cannot concentrate, disturbed","i feel tired, headache, breathing problem, couldnt sleep at night"],
+      "responses": ["Its a clear sign of Anxiety disorder, If You need to know more about its precautions or cure, feel free to ask. "]
     },
     {
       "tag": "Anxiety_precautions",
-      "patterns": ["What are the precautions for Anxiety?","What measures should i take to cure Anxiety"],
-      "responses": ["Its a clear sign of Anxiety, for this you need someone to talk to your close ones  or share your feelings and emotions, You should consult a Therapist. Take care and Not to worry. "]
+      "patterns": ["What are the precautions for Anxiety?","treatment for anxiety","What measures should i take to cure Anxiety"],
+      "responses": ["Treatment for anxiety includes counselling and medication, including antidepressants.  \bYou need someone very close with whome you can share your deep worrying thoughts, \b avoid alcohol,  \breduce caffine intake,   \bquit smoking,  \bdo regular physical exercises and relaxation technique. "]
     },
     {
       "tag": "Chickenpox",
-      "patterns": ["I am having red rashes , fever and itchiness", "i am getting red spots on my hands, face and all over my body what do i do?", "i am having fever, muscle pain,red spots on my hands, face and all over my body i am scared what it might be?"],
-      "responses": ["What i see is,you are facing is mild illness considered as Chickenpox.\n\b Chickenpox is a highly contagious disease caused by the varicella-zoster virus (VZV). It can cause an itchy, blister-like rash. The rash first appears on the chest, back, and face, and then spreads over the entire body, causing between 250 and 500 itchy blisters.\n If You need to know more about its precautions or cure, feel free to ask."]
+      "patterns": ["what is chickenpox","details about chickenpox","how is chickenpox caused","i want to know more about Chickenpox"],
+      "responses": ["Chickenpox is an infection caused by the varicella-zoster virus. It causes an itchy rash with small, fluid-filled blisters. Chickenpox is highly contagious to people who haven't had the disease or been vaccinated against it. Today, a vaccine is available that protects children against chickenpox."]
+    },
+    {
+      "tag": "Chickenpox_symptoms",
+      "patterns": ["I am having red rashes , fever and itchiness", "i am getting red spots on my hands, face and all over my body what do i do?", "i am having fever, muscle pain,red spots on my hands, face and all over my body i am scared what it might be?","scab, ulcers or red spots, fever","fever, loss of appetite, headache, itching"],
+      "responses": ["What i see is,you are facing is mild illness considered as Chickenpox.\n\b Chickenpox is a highly contagious disease. You should avoid any close contact and stay indoors as much as possible.\n If You need to know more about its precautions or cure, feel free to ask."]
     },
     {
       "tag": "Chickenpox_precautions",
-      "patterns": ["What are the precautions for chickenpox?","What measures should i take to cure Chickenpox"],
-      "responses": ["you need to stay indoor as virus should not spread much, do not scratch the spots as it can be incredibly itchy,wear cool clothing, keep yourself hydrated, if there is a sever and spreading infection, you must visit a nearby doctor."]
+      "patterns": ["What are the precautions for chickenpox?","What measures should i take to cure Chickenpox","how do i treat chickenpox","what is treatment for Chickenpox"],
+      "responses": ["Chickenpox can be prevented by a vaccine. Treatment usually involves relieving symptoms, although high-risk groups may receive antiviral medication. \bYou need to stay indoor as to stop spreading virus infection, do not scratch the spots as it can be incredibly itchy,wear cool clothing, keep yourself hydrated, apply moisturizer, if there is a sever and spreading infection, you must visit a nearby doctor."]
     },
     {
-      "tag": "GERD",
+      "tag": "gerd",
+      "patterns": ["what is gerd","full form of gerd","meaning of gerd","what kind of disease is gerd","can you give me more information about gerd","what is basically a gerd"],
+      "responses": ["Full form of GERD is Gastroesophageal reflux disease, It is a digestive disorder that affects the ring of muscle between your esophagus and your stomach. This ring is called the lower esophageal sphincter (LES). If you have it, you may get heartburn or acid indigestion"]
+    },
+    {
+      "tag": "gerd_symptoms",
       "patterns": ["I have stomach_pain,acidity and ulcers on tongue","I had vomiting,feel like acidity and ulcers on my tongue"],
-      "responses": ["its a clear sign of Acid Reflux also called as Gastroesophageal reflux disease, or GERD. It is a digestive disorder that affects the ring of muscle between your esophagus and your stomach. This ring is called the lower esophageal sphincter (LES). If you have it, you may get heartburn or acid indigestion. Feel free to ask if you wanna know more about its treatment and cure."]
+      "responses": ["its a clear sign of Acid Reflux also called as Gastroesophageal reflux disease, or GERD..  if you wanna know more about its treatment and cure, do text me. "]
     },
     {
-      "tag": "GERD_precautions",
+      "tag": "gerd_precautions",
       "patterns": ["What is the treatment for GRED","How do we cure GERD","what measures do we need to take to cure GRED","What is the treatment for Gastroesophageal reflux disease","How do we cure Gastroesophageal reflux disease","what measures do we need to take to cure Gastroesophageal reflux disease",",What is the treatment for AcidReflux","How do we cure Acid reflux","what measures do we need to take to cure acid reflux"],
       "responses": ["If you consult a doctor, they may suggest you \bAntacids which help neutralise acid and stop heartburn, \bProton pump inhibitors which will help block a protein needed to make stomach acid or \bprokinetics this will help you empty your stomach faster so that you wont have much acid left. Other precautions u must take are \bavoid eating food like chocolate,peppermint, fatty foods caffeine and alcoholic beverages,\b Eat slowly and smaller servings,\b chew your food thoroughly,\b Stop smoking and \b stay at healthy weight."]
     },
     {
       "tag": "fungal_infection",
+      "patterns": ["what kind of infection is fungal infection?","what is fungal infection","brief about fungal infection","what is meant by fungal infections", "details about fungal infections"],
+      "responses": [" In humans, fungal infections occur when an invading fungus takes over an area of the body and is too much for the immune system to handle. Fungi can live in the air, soil, water, and plants. There are also some fungi that live naturally in the human body. Like many microbes, there are helpful fungi and harmful fungi.\nYou should immediately see a skin specialist."]
+    },
+    {
+      "tag": "fungal_infection_symptoms",
       "patterns": ["I feel like itching,can see skin_rash, nodal_skin_eruptions and dischromic _patches"," skin_rash, nodal_skin_eruptions, dischronic_patches","itching, skin_rash, nodal_skin_eruptions"],
-      "responses": ["It looks like you have Fungal infection, In humans, fungal infections occur when an invading fungus takes over an area of the body and is too much for the immune system to handle. Fungi can live in the air, soil, water, and plants. There are also some fungi that live naturally in the human body. Like many microbes, there are helpful fungi and harmful fungi.\nYou should immediately see a skin specialist. Till then if you want to know its preventions, you can text me."]
+      "responses": ["Looks like its some kind of infection like fungal infection,  if you want to know about precautions you must take, do text me."]
     },
     {
       "tag": "fungal_infection_precautions",
       "patterns": ["prevention for fungal infection","cure for fungal_infection","cure Fungal_infection","measures should i take to cure fungal infection"],
       "responses": ["Its good in the case of fungal infection that if you bath twice a day,\t\buse detol or neem in bathing water,also\t\bkeep infected area dry\tand try not forget wash your clothes clean and wear clean cloths\n"]
-    }
+    },
+    {
+      "tag": "acne_details",
+      "patterns": ["what is acne","meaning of acne","what kind of disease is acne","can you give me more information about acne","what is basically a acne""],
+      "responses": ["Acne vulgaris is the formation of comedones, papules, pustules, nodules, and/or cysts as a result of obstruction and inflammation of pilosebaceous units (hair follicles and their accompanying sebaceous gland). Acne develops on the face and upper trunk. It most often affects adolescents."]
+    },
+    {
+      "tag": "acne_symptoms",
+      "patterns": ["i got skin rash and pus filled pimples also blackheads","I can see skin rashes,	blackheads and scurring","i have got skin rash,	pimples filled with white substance,	blackheads and scurring"],
+      "responses": ["Your symptoms shows the sign of Acne, you need to take care of your oily skin and bath twice a day for better results. You can ask for precautions of Acne."]
+    },
+    {
+      "tag":"acne_precautions",
+      "patterns":["treatment for acne","what can be done to get rid of acne","preventions for acne","precautions to take when suffering from acne","how do i treat acne"],
+      "responses":["You should bath twice,try	avoid much of fatty spicy food and do	drink plenty of water and	avoid use of too many products on skin, dont use harsh chemical products."]
+    },
+    {
+      "tag":"",
+      "patterns":[""],
+      "responses":[""]
+    },
+    {
+      "tag":"",
+      "patterns":[""],
+      "responses":[""]
+    },
+    {
+      "tag":"",
+      "patterns":[""],
+      "responses":[""]
+    },
+    {
+      "tag":"",
+      "patterns":[""],
+      "responses":[""]
+    },
+    {
+      "tag":"",
+      "patterns":[""],
+      "responses":[""]
+    },
+    {
+      "tag":"",
+      "patterns":[""],
+      "responses":[""]
+    },
   ]
 }
